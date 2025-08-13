@@ -1,5 +1,5 @@
 import express from 'express';
-import dorenv from 'dotenv';
+import dotenv from 'dotenv';
 import cors from 'cors';
 import { connectDB } from './db/connectDB.js';
 import authRoutes from './routes/auth.route.js';
